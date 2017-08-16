@@ -134,7 +134,8 @@ onaylama bunlar bir sertdir. Bunun kimi bir cox sert daha var.
 
 Bir programci paradigmalari bilmirse onun adina programci deyile bilmez. Bir binanin fundamentini bilmek  ve tokmek lazimdir ki
 binamiz saglam olsun. Paradigmada bir programda ve programlasdirmada vacib bir ehemiyyet kesb edir.
-Paradigmalar muxtelifdir ( yuxaridakilar kimi ) ve hamisida cox onemli rol kesb edir. Paradigmalar problemlerin hellini daha asan tapmag ve daha aydin gostermek ucun lazimdir. Bir paradigma butun dillerde ola biler lakin birden cox paradigma az ve modern dillerde ola biler buda bize hansi program dilini semekde komeklik edir.
+Paradigmalar muxtelifdir ( yuxaridakilar kimi ) ve hamisida cox onemli rol kesb edir. Paradigmalar problemlerin hellini daha asan tapmag ve daha aydin gostermek ucun lazimdir. Bir paradigma butun dillerde ola biler lakin birden cox paradigma az 
+ve modern dillerde ola biler buda bize hansi program dilini semekde komeklik edir.
 
 
 2) Hansi programlasdirma dilini sececeyime nece gerar vermeliyem?

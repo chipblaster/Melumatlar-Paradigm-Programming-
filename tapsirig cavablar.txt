@@ -145,9 +145,10 @@ Nece sececeyimize qerar vermeye geldik debir programin
 neceliyine baxmaliyiq ve program bizden neyi teleb ederse o program dilinde yazmaliyig 
 
 Meselen webde androidde yazirsa onda javani bilmek lazimdir. Suretli bir program istedikde suretli program dili arasdirmaliyig 
-yeni hansini bizden teleb edirse o program dilini evvelceden bilmeliyik. 
+yeni hansini bizden teleb edirse o program dilini evvelceden oyrenmeli ve tetbiq etmeliyik. 
 Esasen bir programci bir dili secib onun uzerinden davam elemelidir. Ve lazim geldikde diger dilleri istifade etmelidir. 
-Esas programanlamanin strakturunu, sintaksisini bildikde oyrenmek asandir. Yeter ki insan istesin.
+Esas programanlamanin strakturunu, sintaksisini bildikde oyrenmek asandir. Yeter ki insan istesin.Gunumuzde yeni yeni texnologiyalar
+cixdiqda ona lazim  olan program dilini izlemeli bir programci yalniz bu zaman ozune programci deye biler.
 
 3) Hansi paradigamalar var ve bir birinden ferqleri nelerdir?
 (https://1571b175-a-62cb3a1a-s-sites.googlegroups.com/site/cs4217jan2011team2/programming-paradigms/Programming%20Paradigms.PNG?attachauth=ANoY7cq-ICf9XU5bCZKQrkq4Gs5MXsiQH-c3Y4Fk9LcnARv5YJor_EvuQJfOPl9tMR-DAKg9QgwWPP2WQ6B7P5sISZP2-HCIc2H4J687tf-22nwzkHlguCMLykVD2oKsnG0LO4dry-KHelJajAkdfg4EA0EJUIdGFbKiikQpgBnFo4wGfijcdCObt6-_tyDqXZbKw8s8OI3n2mA6c5gdAGkNfawgKh5bIQEIz5tdSKyWqhVryzevd6Iou778n-xprhzMlJCk-kIY5jFtFpy3YvjsgLTjPw5erg%3D%3D&attredirects=0)

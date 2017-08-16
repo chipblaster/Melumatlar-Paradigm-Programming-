@@ -1,0 +1,191 @@
+- Programlasdirma paradiqmalari
+problemlere çixarilan hellerin nece düstur halina getirileceyiyle elaqeli olan temel proqramlasdirmadir.
+
+1)Imperative programming (vacib proqramlasdirma)
+
+Mecburi proqramlasdirma deyisgen emrler uzerinde qurulmusdur. Mecburi programlasdirma (imperative programming) kompyuterin reallasdiracagi
+sirali emrlerdir. Hesablamanin NECE? edileceyi ehemiyyetlidir.Bu paradiqma kompyuterin techizatina en uygun olandir.
+Meselen C dilinde (mecburi paradiqmaya sahib bir dildir.) Bu koda baxaq:
+
+int x;   Burada x tam sayi deyiseni ucun yaddasdan bir yer aldiq.
+x=3;      3 deyerini yaddasda x deyiseni ucun aldigimiz qutuya qoyuruq. Yaddasa baxaraq buradaki deyisikliyi
+gore bilerik.
+x=x+5;   Bu cumle riyazi baximdan sehvmis kimi gorunse de eslinde paradigmamizi aciqlayan bir ifadedir.
+	Daha evvel x'e 3 qoymusduq. Bu veziyyet bas verdikden sonra indiki emrle  o veziyyeti tekrar deyisdirdik ve
+X-in mezmunu 8 oldu. Neticeler yaddasda bir deyisikliye yol acdi ve bunu da gore bilerik. 
+
+Mecburi programlamaya (imperative programming) sahib bir nece dil bunlardir:  C, Pascal, Fortran, Algol 60, Cobol, Basic.
+
+2)Functional programming (funksional programlasdirma)
+
+Funksional proqramlasdirma ise hereketli kodlari en aza endirerek kodu aydin ifade edir.
+Funksional programlasdirmanin bize asan terefi kod tekrarlamagin qabagini alir ve kodun basga basga yerlerde islemesini temin edir.
+Eyni zamanda kodun analizini daha asan hala getirir.
+
+Asagida bir funksiya numunesi verirem: (C#,java,c,c++ dillerinde istifade olunan koddur)
+
+int topla ( int a, int b){
+
+return a + b;
+
+
+}
+
+Yuxaridaki kod arasdirildiginda a ve b, funksiyaya verilen arqumentler (parametrlerdir).
+Geri donen deyer olaraq tam sayi (integer) tipli istifade edilmis ve bu veziyyet "return" islemi ile ifade edilmisdir.
+a + b yazilisi ise bir alt proqramdir. Yeni bu funksiya adli zaman icra edilen proqram hissesidir. Yenibu funksiya cagrildiginda icra
+edilen proqram hissesidir. OOP-de funksional programlasdirma istifade edilmektedir. OOP-de funksiyaya metod adi verilir.
+
+3)Object-Oriented-Programming ( Obyekt yonumlu proqramlasdirma)
+
+Menim fikrimce OOP-proyektin hisselerini ayri ayri yerde yazib bir yerde birlesmesine deyilir. 
+Numune getirmeli olarsaq: Meselen bir mektebimiz var hemin mektebin icinde onlarnan sinif hemin 
+siniflerin icinde onlarnan telebe ama hersey bir yerde yeni mekteb de birlesir.
+Burada mekteb-proyekt sinif-class telebe ise bir obyektdir.
+OOP(object oriented programming) 1960-ci illerin axirinda quruldu. Ve gunumuzde bir cox modern dillerde istifade olunur.
+
+4)Declarative Programming (Deklarativ programlasdirma)
+
+Deklarativ programlasdirma proqramin nece heyata kecirilmesi oldugunu mueyyen eden kompyuter proqramlasdirma paradiqmasidir.
+Bir kitabxana dusunun agliniza funksional kodlari getirin bunlarin bir kitabxanada oldugunu ferz edin ve program yazarken kitabxanani teyin 
+edin ve istediyiniz asanlasmis kodlari cagirin.
+Deklarativ proqramlasdirma mecburi olmayan (non-imperative programming) proqramlasdirma terzidir.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+1) Variable (Deyisen  http://whatis.techtarget.com/definition/variable  https://tr.wikibooks.org/wiki/C_Sharp_Programlama_Dili/De%C4%9Fi%C5%9Fkenler)
+ 
+
+Coxu proqramlasdirma dilinde deyisenler istifade edilmeye baslanmadan evvel teyin olunarlar. Deyisenin bir cox tipi var:
+byte,sbyte,short,ushort,int,float,string,char ve s.
+
+
+
+Deyisen kompyuterde bir sahe ifade eder. Bu sahede sizin teyin eledeyiniz deyerlerden ibaretdir. 
+Meselen a adinda bir deyisen oldugunu ferz edek. Degiskenin adini siz teyin edin.
+a deyerine 5 sayisini qoyduq
+
+a = 5;
+
+a = 5;
+b = 4;
+x = a + b;
+
+5;
+
+4;
+
+9 = 5 + 4;
+bele bir riyazi usul emele gelir riyaziyyat da 5+4=9 duzgundur lakin kompyuter bu isi tersden gorur.
+
+int - bu degisgen novu en cox istifade olunan degisgen novudur. Tam sayiyi ifade eder.
+
+2) Loops (Dovrler)
+
+Kompyuter programlasdirmasinda en vaciblerden biridir. Buna gore kompyuterin tekrar olunmasi lazim olan islemi
+sonu gelene qeder tekrar eliyer. Ve buda bir programcinin isini asanlasdirir.
+
+Meselen:
+
+for(int i = 0 ; i< 10; i++){
+
+//hereket
+}
+
+yuxaridaki kodda programin 10 defe tekrarlanmasina sebeb olur.
+
+3) Array ( Massiv )
+
+Array eyni tipden bir cox sayida deyisgen tanimlamaq ucun istifade olunur.
+Yaddasda dil terefinden ardicil olaraq tutulan eyni hisselere verilen addir.
+Yeni sade deyisen tek bir melumat vahidi tutabilerken bu deyisene birden çox modullar ehtiyac edilse array teyin oluna biler.
+
+Meselen:
+
+int a[10]; 10 sayilik kod tanitdiq 
+
+for(int i = 0 ; i< 10 ; i++)  0'dan 10'a qeder donen bir devir emele getirdiy 
+
+a[i]=i;  a deyerine i deyerini qoy 
+
+1 2 3 4 5 6 7 8 9 - bele bir sey ortaya cixacaqdir.
+
+4) Conditions ( Sertler)
+if sert deyimi Bul ifadesi dogru olduqda proqramin mueyyen blokunun yerine yetirildiyi idareedici deyim. 
+Sert deyimi cox zaman asagidaki formada olur:
+
+Buna misal getirek:
+
+if (hours <= 40) {
+ pay = hours * wage;
+ System.out.println(“No overtime hours”);
+} else {
+ overtime = hours – 40;
+ pay = wage*40 + 1.5*wage*overtime;
+ System.out.println(“Overtime paid”);
+}
+
+burada if-in icerisinde ki formul duzgundurse bu serti onayla ELSE ( deyilse veya yallandirsa)
+onaylama bunlar bir sertdir. Bunun kimi bir cox sert daha var.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+1) Paradiqma oyrenmeye niye ehtiyacimiz var?
+
+Bir programci paradigmalari bilmirse onun adina programci deyile bilmez. Bir binanin fundamentini bilmek  ve tokmek lazimdir ki
+binamiz saglam olsun. Paradigmada bir programda ve programlasdirmada vacib bir ehemiyyet kesb edir.
+Paradigmalar muxtelifdir ( yuxaridakilar kimi ) ve hamisida cox onemli rol kesb edir.
+
+
+2) Hansi programlasdirma dilini sececeyime nece gerar vermeliyem?
+
+programa dili muxtelifdir ( 200 den coxprogramadili var ) ve bezileri ayri ayri meqsedlerde istifade olunur. 
+Nece sececeyimize qerar vermeye geldik debir programin
+neceliyine baxmaliyiq ve program bizden neyi teleb ederse o program dilinde yazmaliyig 
+
+Meselen webde androidde yazirsa onda javani bilmek lazimdir. Suretli bir program istedikde suretli program dili arasdirmaliyig 
+yeni hansini bizden teleb edirse o program dilini evvelceden bilmeliyik. 
+Esasen bir programci bir dili secib onun uzerinden davam elemelidir. Ve lazim geldikde diger dilleri istifade etmelidir. 
+Esas programanlamanin strakturunu, sintaksisini bildikde oyrenmek asandir. Yeter ki insan istesin.
+
+3) Hansi paradigamalar var ve bir birinden ferqleri nelerdir?
+(https://1571b175-a-62cb3a1a-s-sites.googlegroups.com/site/cs4217jan2011team2/programming-paradigms/Programming%20Paradigms.PNG?attachauth=ANoY7cq-ICf9XU5bCZKQrkq4Gs5MXsiQH-c3Y4Fk9LcnARv5YJor_EvuQJfOPl9tMR-DAKg9QgwWPP2WQ6B7P5sISZP2-HCIc2H4J687tf-22nwzkHlguCMLykVD2oKsnG0LO4dry-KHelJajAkdfg4EA0EJUIdGFbKiikQpgBnFo4wGfijcdCObt6-_tyDqXZbKw8s8OI3n2mA6c5gdAGkNfawgKh5bIQEIz5tdSKyWqhVryzevd6Iou778n-xprhzMlJCk-kIY5jFtFpy3YvjsgLTjPw5erg%3D%3D&attredirects=0)
+
+Paradigmalarin bir necesini (esas 4-luyu) yuxarida izah eledim. 
+
+1)imperative
+2)functional
+3)declarative
+4)object-oriented
+(logic,symbolic,procedural)
+
+Dunyada 27 paradigma var.
+Menbe: (https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
+Imperative paradigm programming - hesablamanin bir program veziyyetini deyisdiren ifadeler olaraq terifler.
+
+Declarative paradigmprogramming - Proqram mentiqini mueyyen edir, lakin etrafli nezaret axini deyildir.
+
+Functional paradigmprogramming - Riyazi funksiyalari qiymetlendirerken proqramlari nezerden keçirir ve deyisken melumatlari qaçirir.
+
+Object-Oriented-Programming paradigm - Proqramlari obyektler kimi teskil edir: 
+melumat saheleri ve usullardan ibaret olan melumat strukturlari onlarin qarsiliqli elaqeleri ile birlikdedir.
+
+4) Size gore en yaxsi paradigma hansidir?
+
+Mene gore en yaxsi paradigma OOP dir. Bir programcinin isini asanlasdirir. Boyuk proyektlerde komanda seklinde islemeyi temin edir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

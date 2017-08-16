@@ -172,6 +172,7 @@ Functional paradigmprogramming - Riyazi funksiyalari qiymetlendirerken proqramla
 Object-Oriented-Programming paradigm - Proqramlari obyektler kimi teskil edir: 
 melumat saheleri ve usullardan ibaret olan melumat strukturlari onlarin qarsiliqli elaqeleri ile birlikdedir.
 
+
 4) Size gore en yaxsi paradigma hansidir?
 
 Mene gore en yaxsi paradigma OOP dir. Bir programcinin isini asanlasdirir. Boyuk proyektlerde komanda seklinde islemeyi temin edir.

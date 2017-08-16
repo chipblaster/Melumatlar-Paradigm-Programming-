@@ -172,6 +172,8 @@ Functional paradigmprogramming - Riyazi funksiyalari qiymetlendirerken proqramla
 Object-Oriented-Programming paradigm - Proqramlari obyektler kimi teskil edir: 
 melumat saheleri ve usullardan ibaret olan melumat strukturlari onlarin qarsiliqli elaqeleri ile birlikdedir.
 
+Imperative paradigma sirali sekilde kodlarin yazilmasi idi bunnan sonra programcilar islerini daha asan elemek ucun funksiya yaratdilar ve bu kodalri bir yere yigmaq lazim idi burdan Declarative paradigma emele geldi yeni bir library (kitabxana) daha sonra programcilarin ayri ayri yerlerde isleyib bir proyekt yaratmasi lazim idi. Cunki artig probleme  cevrilmisdi bununda yolunu OOP (obyekt yonumlu programlasdirma ) quraraq hellini tapdilar.
+
 
 4) Size gore en yaxsi paradigma hansidir?
 

@@ -1,5 +1,5 @@
 - Programlasdirma paradiqmalari
-problemlere çixarilan hellerin nece düstur halina getirileceyiyle elaqeli olan temel proqramlasdirmadir.
+problemlere Ã§ixarilan hellerin nece dÃ¼stur halina getirileceyiyle elaqeli olan temel proqramlasdirmadir.
 
 1)Imperative programming (vacib proqramlasdirma)
 
@@ -39,7 +39,7 @@ edilen proqram hissesidir. OOP-de funksional programlasdirma istifade edilmekted
 3)Object-Oriented-Programming ( Obyekt yonumlu proqramlasdirma)
 
 Menim fikrimce OOP-proyektin hisselerini ayri ayri yerde yazib bir yerde birlesmesine deyilir. 
-Numune getirmeli olarsaq: Meselen bir mektebimiz var hemin mektebin icinde onlarnan sinif hemin 
+Numune getirmeli olarsaq: Meselen bir mektebimiz var hemin mektebin icinde onlarnan sinif. 
 siniflerin icinde onlarnan telebe ama hersey bir yerde yeni mekteb de birlesir.
 Burada mekteb-proyekt sinif-class telebe ise bir obyektdir.
 OOP(object oriented programming) 1960-ci illerin axirinda quruldu. Ve gunumuzde bir cox modern dillerde istifade olunur.
@@ -98,7 +98,7 @@ yuxaridaki kodda programin 10 defe tekrarlanmasina sebeb olur.
 
 Array eyni tipden bir cox sayida deyisgen tanimlamaq ucun istifade olunur.
 Yaddasda dil terefinden ardicil olaraq tutulan eyni hisselere verilen addir.
-Yeni sade deyisen tek bir melumat vahidi tutabilerken bu deyisene birden çox modullar ehtiyac edilse array teyin oluna biler.
+Yeni sade deyisen tek bir melumat vahidi tutabilerken bu deyisene birden Ã§ox modullar ehtiyac edilse array teyin oluna biler.
 
 Meselen:
 
@@ -118,11 +118,11 @@ Buna misal getirek:
 
 if (hours <= 40) {
  pay = hours * wage;
- System.out.println(“No overtime hours”);
+ System.out.println(â€œNo overtime hoursâ€);
 } else {
- overtime = hours – 40;
+ overtime = hours â€“ 40;
  pay = wage*40 + 1.5*wage*overtime;
- System.out.println(“Overtime paid”);
+ System.out.println(â€œOvertime paidâ€);
 }
 
 burada if-in icerisinde ki formul duzgundurse bu serti onayla ELSE ( deyilse veya yallandirsa)
@@ -165,7 +165,7 @@ Imperative paradigm programming - hesablamanin bir program veziyyetini deyisdire
 
 Declarative paradigmprogramming - Proqram mentiqini mueyyen edir, lakin etrafli nezaret axini deyildir.
 
-Functional paradigmprogramming - Riyazi funksiyalari qiymetlendirerken proqramlari nezerden keçirir ve deyisken melumatlari qaçirir.
+Functional paradigmprogramming - Riyazi funksiyalari qiymetlendirerken proqramlari nezerden keÃ§irir ve deyisken melumatlari qaÃ§irir.
 
 Object-Oriented-Programming paradigm - Proqramlari obyektler kimi teskil edir: 
 melumat saheleri ve usullardan ibaret olan melumat strukturlari onlarin qarsiliqli elaqeleri ile birlikdedir.
